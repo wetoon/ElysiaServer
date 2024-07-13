@@ -1,7 +1,11 @@
 {
-  "name": "elysia-model",
+  "name": "elysia-server",
+  "type": "module",
+  "private": true,
   "version": "1.0.50",
+  "license": "CC0-1.0",
   "scripts": {
+    "start": "bun run src/App.ts",
     "dev": "bun run --watch src/App.ts"
   },
   "dependencies": {
